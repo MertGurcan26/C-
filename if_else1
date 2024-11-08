@@ -1,0 +1,23 @@
+
+#include <iostream>
+#include <math.h>
+
+int main()
+{
+int sayi1 , sayi2;
+std::cout << "sayi1 giriniz" << std::endl;
+std::cin >> sayi1;
+std::cout << "sayi2 giriniz" << std::endl;
+std::cin >> sayi2;
+
+if(sayi1>sayi2)
+{
+    std::cout << sayi1 << ">" << sayi2 << std::endl;
+}
+else if(sayi1<sayi2)
+    std::cout << sayi1 << "<" << sayi2 << std::endl;
+else
+    std::cout << sayi1 << "=" << sayi2 << std::endl;
+
+    return 0;
+}
